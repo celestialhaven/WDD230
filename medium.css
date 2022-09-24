@@ -1,0 +1,9 @@
+@media only screen and (min-width: 32.5)
+{
+    header 
+        {
+            display: grid;
+            background-color: #3173a4;
+            margin: 20px;
+        }
+}

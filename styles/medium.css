@@ -1,0 +1,28 @@
+@media only screen and (min-width:32.5em) {
+    h1 {
+        font-size: 4rem;
+    }
+    h2 {
+        font-size: 3rem;
+    }
+    header {
+        display: grid;
+        grid-template-columns: 500px 1fr;
+        align-items: center;
+        justify-content: center;
+        background-color: #3173a4;
+        margin: 20px;
+        border-radius: 5px;
+    }
+    footer {
+        background-color: #3173a4;
+        margin: 20px;
+        border-radius: 5px;
+    }
+    img {
+        border-radius: 5px;
+    }
+
+}
+
+
