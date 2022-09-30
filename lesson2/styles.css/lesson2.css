@@ -12,19 +12,20 @@ main {
     header {
         margin-top: 50px;
         text-align: center;
-        background-color: #0A2032;
+        background-color: white;
         margin: 100px;
+        box-shadow: 0 0 30px;
     }
     h1 {
         font-size: 36px;
-        color: #EEEEEE;
+        color: #1c588a;
         padding-top: 50px;
         padding-bottom: 25px;
         font-family: 'Roboto', sans-serif;
     }
     h2 {
         font-size: 30px;
-        color: #EEEEEE;
+        color: #1c588a;
         padding-bottom: 25px;
         font-family: 'Roboto', sans-serif;
     }
@@ -70,5 +71,8 @@ main {
         font-family: 'Roboto', sans-serif;
         text-align: center;
         display: block;
+    }
+    .p1 p{
+        color: white;
     }
 }
