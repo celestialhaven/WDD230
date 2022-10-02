@@ -589,7 +589,7 @@ section .personas p {
 	background: #F7F7F7;
 }
 
-@media only screen and (max-width: 1450px) {
+@media only screen and (max-width: 1500px) {
 	nav {
 		margin-top: 20px;
 		display: flex;
