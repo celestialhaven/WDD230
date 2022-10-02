@@ -38,13 +38,11 @@ nav {
 	text-align: center;
 	font-size: 20px;
 	cursor: pointer;
-}
-nav {
 	margin-top: 20px;
 	display: flex;
 	flex-direction: row;
+	width: 60%;
 }
-
 nav a {
 	display: block;
 	color: black;
@@ -53,6 +51,14 @@ nav a {
 	padding: 5px;
 	text-decoration: none;
 	font-size: 25px;
+	font-weight: 500;
+	text-transform: uppercase;
+	position: relative;
+}
+nav a:hover {
+	color: #2b398a;
+	background: #9fa7af;
+	border-radius: 5px;
 }
 .container {
 	display: flex;
@@ -614,6 +620,14 @@ section .personas p {
 }
 
 @media only screen and (max-width: 414px) {
+	nav a {
+		font-size: 20px;
+	}
+	nav a:hover {
+		color: #2b398a;
+		background: #9fa7af;
+		border-radius: 5px;
+	}
 	.container {
 		display: grid;
 		text-align: center;
