@@ -483,7 +483,7 @@ section .personas p {
 	position: relative;
 	width: calc(500px - 30px);
 	height: calc(400px - 30px);
-	background: #F7F7F7;
+	background: #104378;
 	margin: 15px;
 	box-sizing: border-box;
 	overflow: hidden;
@@ -501,11 +501,98 @@ section .personas p {
 	transition: 0.5s;
 	z-index: 1;
 }
+.container-4 .box:nth-child(3) {
+	position: relative;
+	width: calc(500px - 30px);
+	height: calc(400px - 30px);
+	background: #1C8964;
+	margin: 15px;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-radius: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.container-4 .box:nth-child(3) .icon {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #F7F7F7;
+	transition: 0.5s;
+	z-index: 1;
+}
+.container-4 .box:nth-child(4) {
+	position: relative;
+	width: calc(500px - 30px);
+	height: calc(400px - 30px);
+	background: #F9BF3C;
+	margin: 15px;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-radius: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.container-4 .box:nth-child(4) .icon {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #F7F7F7;
+	transition: 0.5s;
+	z-index: 1;
+}
+.container-4 .box:nth-child(5) {
+	position: relative;
+	width: calc(500px - 30px);
+	height: calc(400px - 30px);
+	background: #F7F7F7;
+	margin: 15px;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-radius: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.container-4 .box:nth-child(5) .icon {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #c9c7c7;
+	transition: 0.5s;
+	z-index: 1;
+}
+
 
 .container-4 .box .content .typoSample{
 	font-size: 35px;
 	font-family: 'Montserrat', sans-serif;
-	color: #104378
+	color: #F7F7F7;
+}
+.container-4 .box .content .typoSample2{
+	font-size: 35px;
+	font-family: 'Montserrat', sans-serif;
+	color: #104378;
+}
+.container-4 .box .content .paraSample2{
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	color: #104378;
+}
+.container-4 .box .content .typoSample3{
+	font-size: 35px;
+	font-family: 'Montserrat', sans-serif;
+	color: #104378;
+}
+.container-4 .box .content .paraSample3{
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	color: #104378;
 }
 .container-4 .box:hover .icon {
 	top: 20px;
@@ -546,7 +633,7 @@ section .personas p {
 	padding: 0;
 	font-size: 20px;
 	font-family: 'Raleway', sans-serif;;
-	color: #000000;
+	color: #F7F7F7;
 }
 
 /* Color Scheme */
@@ -559,9 +646,9 @@ section .personas p {
 }
 .container-5 .box {
 	position: relative;
-	width: calc(1800px - 30px);
-	height: calc(700px - 30px);
-	background: rgb(162, 199, 183);
+	width: calc(500px - 30px);
+	height: calc(400px - 30px);
+	background: #eee;
 	margin: 15px;
 	box-sizing: border-box;
 	overflow: hidden;
@@ -575,7 +662,7 @@ section .personas p {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: rgb(103, 128, 117);
+	background: rgba(0, 0, 0, 0.1);
 	transition: 0.5s;
 	z-index: 1;
 }
@@ -593,7 +680,7 @@ section .personas p {
 	transform: translate(-50%, -50%);
 	font-size: 80px;
 	transition: 0.5s;
-	color: black;
+	color: rgb(102, 88, 88);
 }
 .container-5 .box:hover .icon .fa-sharp {
 	font-size: 40px;
@@ -611,41 +698,42 @@ section .personas p {
 .container-5 .box .content .content-box {
 	margin-left: 20px;
 	margin-right: 20px;
-	display: grid;
-	grid-template-columns: repeat(6, 1fr);
 	text-align: center;
 	align-items: center;
 	justify-content: center;
-	border-bottom: 1px solid rgb(233, 99, 99);
+
 }
-.container-5 .box .content .content-box h2 {
+.container-5 .box .content .content-box2 h2 {
 	font-size: 16px;
 	padding: 10px;
+	color: #000000;
 }
 .container-5 .box:hover .content {
 	top: 100px;
 	opacity: 1;
 }
-.container-5 .box .content h2 {
-	margin: 0;
-	padding: 0;
-	color: white;
-	font-size: 20px;
-}
 
 .container-5 .box .content h1 {
-	color: white;
+	color: rgb(66, 66, 66);
 }
-.container-5 .box .content .content-box2 .cs1 {
+.container-5 .box .content .content-box2 .primary {
+	margin: 5px 100px;
 	background: #104378;
 }
-.container-5 .box .content-box2 .cs2 {
+.container-5 .box .content-box2 .secondary {
 	color: #104378;
-	background: #FFFFFF;
+	background: #1C8964;
+	margin: 5px 100px;
 }
-.container-5 .box .content-box2 .cs3 {
+.container-5 .box .content-box2 .accent1 {
+	color: #104378;
+	background: #F9BF3C;
+	margin: 5px 100px;
+}
+.container-5 .box .content-box2 .accent2 {
 	color: #104378;
 	background: #F7F7F7;
+	margin: 5px 100px;
 }
 .container-5 .box .content .content-box .header-result {
 	font-size: 40px;
