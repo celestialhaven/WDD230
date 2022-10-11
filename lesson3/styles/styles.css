@@ -594,6 +594,16 @@ section .personas p {
 	font-family: 'Montserrat', sans-serif;
 	color: #104378;
 }
+.container-4 .box .content .c1 {
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	color: #104378;
+}
+.container-4 .box .content .c2 {
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	color: #104378;
+}
 .container-4 .box:hover .icon {
 	top: 20px;
 	left: calc(50% - 40px);
