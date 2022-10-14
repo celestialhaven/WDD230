@@ -17,7 +17,6 @@
 // document.getElementById("currentdate").textContent = fulldate;
 
 //********************************** */
-
 try {
     let options = {
         weekday: "long",
