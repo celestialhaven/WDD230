@@ -1,6 +1,6 @@
-const toggleButton = document.getElementsByClassName('navbar-toggle')[0];
-const navbarLinks = document.getElementsByClassName('navbar-links');
-toggleButton.addEventListener('click', function() {
-    for (var i=0; i<navbarLinks.length; i++)
-    navbarLinks[i].classList.toggle('active');
-});
+function toggleMedu() {
+    document.getElementById('primaryNav').classList.toggle('open');
+}
+
+const x = document.getElementById('navbar-toggle')
+x.onclick = toggleMedu;

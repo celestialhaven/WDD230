@@ -1,5 +1,67 @@
-@media screen and (max-width: 1200px) {
-    .news-release {
-        border: 1px solid #0000;
+@media screen and (min-width: 1200px) {
+    .headerContent {
+        width: 100%;
+        z-index: 1;
     }
+    .headerContainer {
+        position: relative;
+        margin: 10px 10px;
+        min-height: 120px;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+    }
+    .logoHeadingContainer {
+        position: absolute;
+        top: 10px;
+        left: 100px;
+        display: flex;
+    
+    }
+    .logo-heading h1 {
+        font-size: 25px;
+    }
+    .brandsContainer {
+        position: absolute;
+        top: 20px;
+        right: 100px;
+        max-width: 100px;
+    }
+
+    #date {
+        position: absolute;
+        right: 25%;
+        width: 50%;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    }
+    .navbarContainer {
+        position: absolute;
+        margin: 0;
+    }
+    nav button  {
+        display: none;
+    }
+    .navbar ul li a {
+        display: block;
+        padding: 0.8rem 2vw;
+        text-decoration: none;
+        color: #333;
+    }
+    .navbar ul li.active a {
+        background-color: rgba(0, 0, 0, 0.2);
+        color: white;
+    }
+    .navbar ul li a:hover {
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+    
+    nav ul {
+        right: 15%;
+        position: absolute;
+        margin-top: 20px;
+        display: flex;
+    }
+    nav ul.open {
+        display: block;
+    }
+
 }

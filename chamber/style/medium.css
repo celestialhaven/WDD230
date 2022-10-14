@@ -1,27 +1,17 @@
 @media screen and (max-width: 820px) {
-    .navbar ul {
-        flex-wrap: wrap;
-        box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    #date {
+        right: 70px;
     }
-    .navbar li {
-        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
-    }
-    .navbar .logoContent {
-        display: flex;
-    }
-    .navbar ul img {
-        margin-left: 20px;
-    }
-    .navbar img {
-        margin-left: 10px;
-    }
-    .navbar-toggle {
-        display: block;
-    }
-    .navbar-links {
-        display: none;
-        width: 100%;
+    .brandsContainer {
+        right: 80px;
+        min-width: 20%;
         text-align: center;
+    }
+    .navbarContainer {
+        right: 14px;
+    }
+    .brandsContainer .fa-brands {
+        margin: 0 10px;
     }
     .active {
         display: block;
@@ -47,7 +37,6 @@
     }
     .eventContent {
         order: 3;
-        
     }
     .spotlight {
         order: 2;

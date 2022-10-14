@@ -4,50 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="This Chamber of commerce will serve as important organization for inviting investor to join in Agricultural field!.">
+    <title>Celestial Haven | Home Page</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
-
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="stylesheet" href="style/base.css">
+    <link rel="stylesheet" href="style/large.css">
     <link rel="stylesheet" href="style/medium.css">
     <link rel="stylesheet" href="style/small.css">
-    <link rel="stylesheet" href="style/large.css">
+
     <script src="https://kit.fontawesome.com/1e5b89cd41.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    <header class="hContent">
-        <div class="headContent">
-            <div class="logoContainer">
-                <img src="images/logo-only.png" alt="Small size Celestial Haven Logo">
-                <h1>Celestial Haven<br><span>Chamber of Commerce</span></h1>
+    <header class="headerContent">
+        <div class="headerContainer">
+            <div class="logoHeadingContainer">
+                <div class="logoContainer">
+                    <img src="images/logo-small-size.png" alt="Small size Celestial Haven Logo">
+                </div>
+                <div class="logo-heading">
+                    <h1>Celestial Haven<br><span style="font-size: 15px; display: block;">Chamber of Commerce</span></h1>
+                </div>
             </div>
-            <div style="text-align: center;" class="brandsContainer">
+            <div class="brandsContainer">
                 <i class="fa-brands fa-square-facebook"></i>
                 <i class="fa-brands fa-linkedin"></i>
                 <i class="fa-brands fa-twitter"></i>
             </div>
-            <div class="date"></div>
+            <div id="date"></div>
+            <div class="navbarContainer">
+                <nav class="navbar">
+                    <button id="navbar-toggle"><i class="fa-solid fa-bars"></i></button>
+                        <ul id="primaryNav">
+                            <li class="active"><a href="">Home</a></li>
+                            <li><a href="">Discover</a></li>
+                            <li><a href="">Join</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                </nav>
+            </div>
         </div>
     </header>
-    <nav class="navbar">
-        <ul>
-            <li class="navbar-toggle"><i class="fa-solid fa-bars"></i></li>
-            <li class="navbar-links"><a href="">Home</a></li>
-            <li class="navbar-links"><a href="">Discover</a></li>
-            <li class="navbar-links"><a href="">Join</a></li>
-            <li class="navbar-links"><a href="">Contact</a></li>
-        </ul>
-    </nav>
     <main class="mainContent">
         <div class="mainWrapper">
             <section class="heroContent">
                 <div class="hero">
                     <div class="heroContainer">
-                        <h2>Welcome to Celestial Haven</h2>
-                        <button>Join the Chamber</button>
+                            <h2>Welcome to Celestial Haven</h2>
+                            <button>Join the Chamber</button>
                     </div>
-                </div>
-                <div class="news-release">
-                    <h3>News Release</h3>
+                    <div class="news-release">
+                            <h3>News Release</h3>
+                    </div>
                 </div>
             </section>
             <section class="spotlight">
@@ -109,6 +117,6 @@
     </footer>
     <script src="script/chamber.js"></script>
     <script src="script/date.js"></script>
-    <script src="script/footerDate.js"></script>
+    <script src="script/footerdate.js"></script>
 </body>
 </html>

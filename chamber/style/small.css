@@ -1,36 +1,19 @@
 @media screen and (max-width: 500px) {
-    .logoContainer img {
-        width: 80px;
-    }
-    .logoContainer h1 {
-        font-size: 40px;
-    }
-    .hContent span {
-        margin: 0;
-        font-size: 15px; 
-        margin-left: 5px;
-        letter-spacing: 6px;
-    }
-    .navbar ul {
-        box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
-    }
-    .navbar ul h1 {
-        flex: 1;
-        font-size: 20px;
-    }
-    .navbar-toggle {
-        display: block;
-    }
-    .navbar-links {
-        display: none;
-        width: 100%;
+    .brandsContainer {
+        right: 40px;
+        min-width: 20%;
         text-align: center;
     }
-    .active {
-        display: block;
+    .brandsContainer .fa-brands {
+        margin: 0;
     }
-    .navbar li {
-        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    .navbarContainer {
+        position: absolute;
+        right: 5px;
+        margin: 5px 5px;
+    }
+    #date {
+        right: 35px;
     }
     .mainWrapper {
         display: flex;
