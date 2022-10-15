@@ -64,4 +64,99 @@
         display: block;
     }
 
+    .eventContent {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .event h3 {
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .eventDiamond {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .event p {
+        margin: auto 20px;
+        margin-top: 50px;
+    }
+    .event a {
+        text-decoration: none;
+    }
+    .weatherIcon {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .weatherStatus h3 {
+        text-align: right;
+        margin-right: 25px;
+        margin-bottom: 20px;
+    }
+    .weatherBaro {
+        margin: auto 30px;
+    }
+    .joinBtn {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .news-release {
+        border: 1px solid black;
+    }
+    .heroContainer {
+        position: relative;
+        border: 1px solid black;
+    }
+    .heroContainer img {
+        width: 100%;
+    }
+    .headingMsg {
+        position: absolute;
+        top: 30px;
+        left: 18px;
+        padding: 5px;
+        border-radius: 5px;
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(30px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        box-shadow: 0 0 80px rgb(0 0 0 / 20%);
+        overflow: hidden;
+    }
+    .headingBtn {
+        position: absolute;
+        top: 150px;
+        right: 30px;
+    }
+    .joinBtn {
+        font-size: 20px;
+        padding: 5px;
+        border-radius: 5px;
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+    }
+    .spotlight {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+    }
+    .spotlightOne, .spotlightTwo, .spotlightThree {
+        box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+        min-height: 300px;
+    }
+    .spotlightOne-p, .spotlightTwo-p{
+        margin: auto 10px;
+    }
+    .spotlight h3, h4 {
+        padding: 10px;
+    }
 }

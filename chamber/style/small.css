@@ -28,9 +28,46 @@
         width: 100%;
     }
     .hero {
+        display: block;
         position: relative;
-        min-height: 300px;
+        min-height: 100px;
         padding: 10px;
+    }
+    .heroContainer {
+        position: relative;
+        border: none;
+    }
+    .heroContainer img {
+        width: 100%;
+    }
+    .headingMsg {
+        position: absolute;
+        top: 15px;
+        left: 18px;
+        padding: 5px;
+        border-radius: 5px;
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(30px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        box-shadow: 0 0 80px rgb(0 0 0 / 20%);
+        overflow: hidden;
+    }
+    .headingMsg h2 {
+        font-size: 20px;
+    }
+    .headingBtn {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    .joinBtn {
+        font-size: 15px;
+        padding: 5px;
+        border-radius: 5px;
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        box-shadow: 0 0 80px rgb(0 0 0 / 20%);
     }
     .news-release {
         display: none;
@@ -40,8 +77,39 @@
         order: 2;
         width: 100%;
     }
+    .eventContent .event h3 {
+        font-size: 25px;
+        padding: 0;
+        margin: 0;
+    }
+    .eventDiamond {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .eventContent .event p {
+        padding: 5px;
+    }
+    .eventContent .event a {
+        text-decoration: none;
+    }
+
     .news-release-2 {
+        height: 300px;
+        padding: 10px;
         display: block;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    .news-release-2 h3 {
+        font-size: 25px;
+        padding: 20px;
+    }
+    .news-release-2 p {
+        padding: 10px;
+        margin: 0 20px;
     }
     .spotlight {
         display: block;
@@ -52,24 +120,57 @@
         display: none;
     }
     .event {
-        height: 300px;
+        height: 200px;
         width: 100%;
         padding: 10px;
     }
     .weatherContent {
+        display: grid;
+        margin: 20px auto;
         height: 300px;
-        width: 100%;
+        width: 80%;
         padding: 10px;
     }
-    .news-release-2 {
-        height: 300px;
-        padding: 10px;
+    .weatherHeading h3 {
+        font-size: 25px;
+    }
+    .weatherIcon {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .weatherStatus {
+        text-align: right;
     }
     .spotlightOne, .spotlightTwo {
-        height: 300px;
-        width: 100%;
+        margin: 0 auto;
+        height: 330px;
+        width: 90%;
         padding: 10px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+    
     }
+    .spotlightOne h3 {
+        font-size: 25px;
+        padding: 5px;
+    }
+    .spotlightOne h4 {
+        font-size: 20px;
+        padding: 20px;
+    }
+    .spotlightOne .fa-sharp {
+        font-size: 80px;
+    }
+    .spotlightTwo h3 {
+        font-size: 25px;
+        padding: 5px;
+    }
+    .spotlightTwo h4 {
+        font-size: 20px;
+        padding: 20px;
+    }
+
     .spotlightThree {
         display: none;
     }
