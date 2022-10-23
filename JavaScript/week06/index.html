@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Week06 Project</title>
+  </head>
+  <body>
+    <header>
+      <h1>Expense Tracker</h1>
+    </header>
+  <main>
+    <div class="formContainer">
+      <div class="inputs">
+        <h2>Name: <input class="input1" id="name" type="text"/></h2>
+        <h2>Date: <input id="date" type="date"/></h2>
+        <h2>Amount: <input class="input1" id="amount" type="text"/></h2>
+      </div>
+      <button style="font-size: 20px; padding: 0 60px;" type="submit" onclick="expenseTracker()">submit</button>
+    </div>
+    <div class="tableContainer">
+      <table>
+        <thead>
+          <tr class="theadContainer">
+            <th>Name</th>
+            <th>Date</th>
+            <th>Amount</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="tableElement"><tr><td colspan="4">No expense yet!</td></tr></tbody>
+      </table>
+    </div>
+  </main>
+  </body>
+  <script src="scripts/week06.js"></script>
+</html>

@@ -50,7 +50,12 @@
             <section class="heroContent">
                 <div class="hero">
                     <div class="heroContainer">
-                        <img src="images/heroImage_2.jpg" alt="Hero Image">
+                        <picture class="myHero">
+                            <source media="(max-width: 400px)" srcset="images/small.jpg">
+                            <source media="(max-width: 1024px)" srcset="images/medium.jpg">
+                            <source media="(max-width: 1025px)" srcset="images/large.jpg">
+                            <img src="images/wdd230-org.jpg" alt="Hero Image">
+                        </picture>
                         <div class="headingMsg">
                             <h2>Welcome to Celestial Haven</h2>
                         </div>
