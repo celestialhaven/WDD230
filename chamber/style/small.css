@@ -31,7 +31,7 @@
         display: block;
         position: relative;
         min-height: 100px;
-        padding: 10px;
+        padding: 0;
     }
     .heroContainer {
         position: relative;
@@ -122,14 +122,16 @@
     .event {
         height: 200px;
         width: 100%;
-        padding: 10px;
+        padding: 0;
+        box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
     }
     .weatherContent {
         display: grid;
-        margin: 20px auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
         height: 300px;
-        width: 80%;
-        padding: 10px;
+        padding: 0;
+        box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
     }
     .weatherHeading h3 {
         font-size: 25px;
@@ -146,10 +148,8 @@
     .spotlightOne, .spotlightTwo {
         margin: 0 auto;
         height: 330px;
-        width: 90%;
         padding: 10px;
-        border: 1px solid rgba(0, 0, 0, 0.1);
-    
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     }
     .spotlightOne h3 {
         font-size: 25px;

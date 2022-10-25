@@ -1,4 +1,7 @@
 @media screen and (max-width: 1024px) {
+    .headerContainer {
+        margin: 0;
+    }
     #date {
         right: 70px;
     }
@@ -96,7 +99,7 @@
         text-align: center;
         justify-content: center;
         align-items: center;
-        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+        box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
     }
     .spotlightTwo h3 {
         margin: auto 5px;
@@ -127,6 +130,7 @@
         align-items: center;
         justify-content: center;
         padding: 10px;
+        box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
     }
     .joinBtn {
         margin-top: 20px;
@@ -142,6 +146,7 @@
         justify-content: center;
         padding: 10px;
         min-height: 100px;
+        box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
     }
     .event h3 {
         font-size: 30px;
@@ -170,6 +175,7 @@
         justify-content: center;
         padding: 10px;
         min-height: 100px;
+        box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
     }
     .upperContainer img {
         width: 100px;

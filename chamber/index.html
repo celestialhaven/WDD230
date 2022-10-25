@@ -7,6 +7,7 @@
     <meta name="description" content="This Chamber of commerce will serve as important organization for inviting investor to join in Agricultural field!.">
     <title>Celestial Haven | Home Page</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="stylesheet" href="style/base.css">
@@ -16,6 +17,19 @@
 
     <script src="https://kit.fontawesome.com/1e5b89cd41.js" crossorigin="anonymous"></script>
 </head>
+<body onload="myBanner()">
+    <div class="banner">
+        <div class="banner_content">
+            <div class="banner_text">
+                <h1>"🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m."</h1>
+            </div>
+            <button class="clodeBtn" type="button">
+                <span class="material-symbols-outlined">
+                    close
+                    </span>
+            </button>
+        </div>
+    </div>
     <header class="headerContent">
         <div class="headerContainer">
             <div class="logoHeadingContainer">
@@ -135,7 +149,7 @@
                 <div class="joinContent">
                     <div class="joinContainer">
                         <div class="joinBtn_2">
-                            <button class="joinBtn">Join Us!</button>
+                            <button class="joinBtn_event">Join Us!</button>
                         </div>
                         <p class="joinP">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, laudantium obcaecati! Vitae ab autem animi aspernatur eum quis numquam ratione consectetur atque, labore et quam. Harum pariatur explicabo dolores dolorem.</p>
                     </div>
@@ -173,6 +187,7 @@
             <p class="p1">&copy; 2022 Celestial Haven Chamber | Jones Mabala | WDD 230 Project | Last Updated: <span id="currentdate2"></span></p>
         </div>
     </footer>
+    <script src="script/banner.js"></script>
     <script src="script/chamber.js"></script>
     <script src="script/date.js"></script>
     <script src="script/footer.js"></script>
