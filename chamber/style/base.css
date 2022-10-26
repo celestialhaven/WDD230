@@ -258,3 +258,8 @@ nav ul.open {
     width: 100%;
     border: 1px solid black;
 }
+.tableContent {
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px;
+}
