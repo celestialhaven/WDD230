@@ -1,4 +1,7 @@
 @media screen and (max-width: 500px) {
+    .banner_text h1 {
+        font-size: 15px;
+    }
     .brandsContainer {
         right: 40px;
         min-width: 20%;
