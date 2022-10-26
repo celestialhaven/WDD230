@@ -172,10 +172,5 @@
         padding: 15px;
         box-shadow: 0 0 10px rgb(0 0 0 / 20%)
     }
-    
-    .solidLine {
-        width: 100%;
-        border: 1px solid black;
-    }
 }
 

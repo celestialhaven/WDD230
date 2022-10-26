@@ -129,11 +129,12 @@
         box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
     }
     .weatherContent {
-        display: grid;
+        display: flex;
+        flex-direction: column;
         margin-top: 10px;
         margin-bottom: 10px;
         height: 300px;
-        padding: 0;
+        padding: 20px;
         box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
     }
     .weatherHeading h3 {
@@ -211,5 +212,4 @@
         display: flex;
         font-size: 20px;
     }
-
 }
