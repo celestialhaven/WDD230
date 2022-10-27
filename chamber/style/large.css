@@ -12,7 +12,7 @@
     }
     .logoHeadingContainer {
         position: absolute;
-        top: 10px;
+        top: 0;
         left: 100px;
         display: flex;
     

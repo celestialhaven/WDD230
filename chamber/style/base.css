@@ -50,6 +50,9 @@
     font-size: 25px;
     color: #104378;
 }
+.logoContainer img {
+    width: 80px;
+}
 .brandsContainer {
     right: 50px;
     top: 2px;
@@ -224,6 +227,9 @@ nav ul.open {
     display: flex;
     text-align: left;
     justify-content: center;
+}
+.upperContainer img {
+    width: 100px;
 }
 .upperContainer h2 {
     font-size: 50px;
