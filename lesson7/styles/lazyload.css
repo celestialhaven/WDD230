@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+picture img[data-src] {
+    filter: blur(0.2em);
+}
+  
+picture img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+.lazyLoading {
+    display: flex;
+    min-height: 200px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
