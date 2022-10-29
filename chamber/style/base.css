@@ -269,3 +269,34 @@ nav ul.open {
     width: 100%;
     padding: 10px;
 }
+
+/* ****************************DICOVER PAGE********************************* */
+.dicoverContainer {
+    margin: 30px auto;
+    text-align: center;
+    max-width: 500px;
+}
+.discoverImages {
+    display: flex;
+    flex-direction: column;
+}
+picture img[data-src] {
+    filter: blur(0.2em);
+}
+picture img {
+    width: 100%;
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+.lazyLoading {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.discoverImages h1 {
+    margin: 20px auto;
+}
+.discoverImages img {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
