@@ -1,0 +1,38 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+table {
+	margin: 100px auto;
+	border: thin solid gray;
+	box-shadow: 0 0 10px gray;
+	border-collapse: collapse;
+}
+
+caption {
+  padding: 10px;
+  caption-side: bottom;
+	color: green;
+	font-size: .85rem;
+}
+
+tr:first-child th, .highlight {
+	background-color: green;
+	color: white;
+}
+
+th, td {
+	padding: 7px 15px;
+	border: 1px solid white;
+}
+
+th {
+	background-color: rgb(88, 168, 88);
+}
+
+td {
+	text-align: center;
+}
+
+tbody tr:nth-child(even) {
+	background-color: rgb(214, 213, 213);
+}
