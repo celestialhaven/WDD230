@@ -59,47 +59,76 @@
             </div>
         </div>
     </header>
-    <main class="dicoverContainer">
-        <div class="discoverImages">
-            <div>
-                <h1>Maria Christina Falls</h1>
-                <picture>
-                    <img src="images/place_holder.jpg" data-src="images/maria_christina_falls.jpg" alt="dog" />
-                </picture>
-                <p>Maria Christina Falls is well-known in the local place of Iligan. It's one of the tourist destinations. Though it attracts tourists Maria Christina Falls is connected to a Hydro Power Plant that provides electricity throughout the city and its neighboring cities.</p>
-            </div>
-            <div>
-                <h1>Tinago Falls</h1>
-                <picture>
-                    <img src="images/place_holder.jpg" data-src="images/tinago_falls.jpg" alt="bird" />
-                </picture>
-                <p>Tinago Falls is one of the best falls in Iligan City. Most tourists always pick Tinago Falls as the top selection. The name "Tinago" is "Hidden" in English thus its location is very hidden or remote however, the majestic location will enchant you once you find the place.</p>
-            </div>
-            <div>
-                <h1>Sikyop</h1>
-                <picture>
-                    <img src="images/place_holder.jpg" data-src="images/sikyop_2.jpg" alt="Limunsudan Falls" />
-                </picture>
-                <p>Sikyop, which perfectly means "hidden paradise", is located in Sitio Lawlawon, Barangay Rogongon, Iligan City. It has various adventures from hiking, swimming, camping, and rappelling. Sikyop is a very remote place in Iligan City. Nature will capture your heart and eyes that make you want to visit the place once you leave.</p>
-            </div>
-            <div>
-                <h1>Timoga Spring Pool</h1>
-                <picture>
-                    <img src="images/place_holder.jpg" data-src="images/timoga_spring.jpg" alt="sunset" />
-                </picture>
-                <p>Timoga Spring is located in Timoga-Buru-un, Iligan City. If you want to unwind during the hot summer months. This is the top-selected pool in Iligan city. This pool is busy during the weekend however, during weekdays it has only a few people.</p>
-            </div>
-            <div>
-                <h1>Paseo De Santiago</h1>
-                <picture>
-                    <img src="images/place_holder.jpg" data-src="images/paseo_de_santiago.jpg" alt="tree" />
-                </picture>
-                <p>Paseo de Santiago is located in Santiago, Iligan city. This is place is near at beach. You can spend your time here with your friends or family. At night the place is busy and full of people. You can enjoy walking and dining in this place.</p>
-            </div>
-            
+    <main>
+        <div class="formContainer">
+            <form class="test1" action="#">
+                <div class="title">Registration Form</div>
+                <div class="personalDeatils">
+                    <div class="formBox">
+                        <label for="firstname">First Name:</label>
+                        <input type="text" placeholder="First Name" required>
+                    </div>
+                    <div class="formBox">
+                        <label for="lastname">Last Name:</label>
+                        <input type="text" placeholder="Last Name" required>
+                    </div>
+                    <div class="formBox">
+                        <label for="businessTitle">Title:</label>
+                        <input type="text" placeholder="Business Title">
+                    </div>
+                    <div class="formBox">
+                        <label for="email">Email:</label>
+                        <input type="email" placeholder="jonzmabz01@gmail.com" required>
+                    </div>
+                    <div class="formBox">
+                        <label for="phone">Phone:</label>
+                        <input type="tel" placeholder="Phone Number" required>
+                    </div>
+                    <div class="formBox">
+                        <label for="businessname">Business Name:</label>
+                        <input type="text" placeholder="Business Name" required>
+                    </div>
+                </div>
+                <div class="membershipDetails">
+                    <div class="formBox">
+                        <div class="title2">Choose Membership Level</div>
+                        <select id="membership" name="membership" required>
+                            <option value="australia">-------</option>
+                            <option value="australia">NP Membership</option>
+                            <option value="australia">Bronze Membership</option>
+                            <option value="australia">Silver Membership</option>
+                            <option value="australia">Gold Membership</option>
 
+                          </select>
+                    </div>
+                    <div class="formBox">
+                        <label for="noneprofit" style="font-weight: bold;"><em>NP Membership: Cost: 0 PHP</em></label>
+                        <p>As a non-profit business you get all the benefits of a silver membership free of charge.</p>
+                    </div>
+                    <div class="formBox">
+                        <label for="bronze" style="font-weight: bold;"><em>Bronze Membership: Cost: 1,200 PHP/yr</em></label>
+                        <p>Bronze Membership gives you access to special monthly training events and 2 round table seat held by the chamber.</p>
+                    </div>
+                    <div class="formBox">
+                        <label for="silver" style="font-weight: bold;"><em>Silver Membership: Cost: 2,400 PHP/yr</em></label>
+                        <p>Silver membership gives you access to special monthly training events, 5 round table seat plus free advertizing on our homepage.</p>
+                    </div>
+                    <div class="formBox">
+                        <label for="gold" style="font-weight: bold;"> <em>Gold Membership: Cost: 3,600 PHP/yr</em></label>
+                        <p>Gold membership gives you access to special monthly training events, 10 round table seat plus free advertizing on our homepage and events.</p>
+                    </div>
+                </div>
+                <div class="businessDescription">
+                    <span class="details">Business Description</span>
+                </div>
+                <div class="textArea">
+                    <textarea cols="50" rows="10">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus officiis cupiditate rerum libero quo, quam veniam inventore alias sed ipsam illum dignissimos doloremque? Laudantium veritatis quis saepe quia mollitia sapiente.</textarea>
+                </div>
+                <div class="formSubmit">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
         </div>
-        <script src="script/lazyload.js" defer></script>
     </main>
     <footer class="footer-content">
         <div class="footerContainer">
@@ -131,6 +160,5 @@
     <script src="script/chamber.js"></script>
     <script src="script/date.js"></script>
     <script src="script/footer.js"></script>
-    <script src="script/lazyload.js" defer></script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 766px) {
     .banner_text h1 {
         font-size: 15px;
     }
@@ -211,5 +211,36 @@
     .footer-box-2 {
         display: flex;
         font-size: 20px;
+    }
+    /* ================================== */
+
+    .test1 {
+        width: 100%;
+        border-radius: 0;
+
+    }
+    .formBox {
+        padding: 0.rem 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .formBox label {
+        display: none;
+    }
+    .formBox input {
+        width: 350px;
+        margin-top: 5px;
+        padding: 10px;
+    }
+    .membershipDetails {
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .membershipDetails .formBox {
+        padding: 10px;
+    }
+    .membershipDetails .formBox label {
+        display: block;
     }
 }

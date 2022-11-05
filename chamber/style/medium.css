@@ -206,6 +206,39 @@
     .compDetails ul h2 {
         font-size: 20px;
     }
+    .personalDeatils .formBox {
+        flex-direction: row;
+    }
+    .personalDeatils .formBox label {
+        flex-basis: 9rem;
+        margin-top: 13px;
+    }
+    .personalDeatils .formBox input {
+        width: 350px;
+        margin-top: 5px;
+        padding: 10px;
+    }
+    .membershipDetails {
+        margin-top: 20px;
+    }
+    .membershipDetails .formBox {
+        flex-direction: column;
+    }
+    .membershipDetails .formBox select {
+        padding: 10px;
+    }
+    .membershipDetails .formBox label {
+        margin-top: 20px;
+    }
+    .title {
+        font-size: 30px;
+        padding: 10px;
+        font-weight: bold;
+    }
+    .title2 {
+        font-size: 20px;
+        font-weight: bold;
+    }
 }
 @media screen and (max-width: 768px) {
     .heroContainer img {

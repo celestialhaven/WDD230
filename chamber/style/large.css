@@ -171,5 +171,34 @@
         padding: 15px;
         box-shadow: 0 0 10px rgb(0 0 0 / 20%)
     }
+    /* ********************************* */
+    .formContainer {
+        height: 1100px;
+    }
+    .personalDeatils .formBox {
+        flex-direction: row;
+    }
+    .personalDeatils .formBox label {
+        flex-basis: 9rem;
+        margin-top: 13px;
+    }
+    .personalDeatils .formBox input {
+        width: 350px;
+        margin-top: 5px;
+        padding: 10px;
+    }
+    .membershipDetails {
+        margin-top: 20px;
+    }
+    .membershipDetails .formBox {
+        flex-direction: column;
+    }
+    .membershipDetails .formBox select {
+        padding: 10px;
+    }
+    .membershipDetails .formBox label {
+        margin-top: 20px;
+    }
+    
 }
 
