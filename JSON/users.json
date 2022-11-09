@@ -1,0 +1,48 @@
+{   "users": [
+    {
+        "name": "Regine",
+        "age": 29,
+        "isProgrammer": false,
+        "hobbies": ["Singing", "Dancing"],
+        "address": {
+                "city": "Iligan",
+                "province": "Lanao",
+                "country": "Philippines"
+            }
+    },
+    {
+        "name": "Rose",
+        "age": 40,
+        "isProgrammer": true,
+        "hobbies": ["volleyball", "basketball"],
+        "address": {
+            "city": "Cagayan",
+            "province": "Misamis",
+            "country": "Philippines"
+        }
+    },
+    {
+        "name": "Rose",
+        "age": 40,
+        "isProgrammer": true,
+        "hobbies": ["volleyball", "basketball"],
+        "address": {
+            "city": "Cagayan",
+            "province": "Misamis",
+            "country": "Philippines"
+        }
+    },
+    {
+        "name": "Rose",
+        "age": 40,
+        "isProgrammer": true,
+        "hobbies": ["volleyball", "basketball"],
+        "address": {
+            "city": "Cagayan",
+            "province": "Misamis",
+            "country": "Philippines"
+        }
+    }
+]
+    
+}
