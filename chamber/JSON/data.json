@@ -1,0 +1,85 @@
+{
+    "companies": [
+        {
+            "logo": "https://www.facebook.com/JackosKananan/",
+            "name": "Jacko's Kan-anan",
+            "phone": "(063) 222 4610",
+            "email": "jackoscatering@gmail.com",
+            "url": "https://www.facebook.com/JackosKananan/",
+            "address": "C3 Road, Hinaplanon, Iligan City, Philippines",
+            "membership": "Non-Profit Membership"
+        },
+        {
+            "logo": "https://www.facebook.com/photo/?fbid=505051104957979&set=a.505051068291316",
+            "name": "Marianos Home-cooked Specialties",
+            "phone": "0917 717 5071",
+            "email": "marianoshcs@yahoo.com",
+            "url": "https://www.facebook.com/marianoshcs/",
+            "address": "Meadowlark St., Isabel Village, Pala-o, Iligan City, Philippines",
+            "membership": "Non-Profit Membership"
+        },
+        {
+            "logo": "https://joseandresggiron.github.io/wdd230/chamber/images/delpuente.jpg",
+            "name": "Sunburst Restaurant",
+            "phone": "0917 770 7093",
+            "email": "sunburst.iligan@yahoo.com",
+            "url": "https://www.facebook.com/sunburst.iligan/",
+            "address": "G.T. Lluch St. Palao, Iligan City, Iligan City, Philippines",
+            "membership": "Bronze Membership"
+        },
+        {
+            "logo": "https://www.facebook.com/photo/?fbid=451969123613051&set=a.451969093613054",
+            "name": "Calda Pizza",
+            "phone": "0945 075 3979",
+            "email": "caldapizza@gmail.com",
+            "url": "https://www.facebook.com/caldapizzapalaoiligancity/",
+            "address": "The Strip, Quezon Ave, Pala-O, Iligan City, Philippines",
+            "membership": "Bronze Membership"
+        },
+        {
+            "logo": "https://www.gohotels.ph/sites/all/themes/itechgohotels/images/logo/menu-logo-gplus.png",
+            "name": "Go Hotel",
+            "phone": "+63 (63) 224 9599",
+            "email": "reservations@gohotels.ph",
+            "url": "https://www.gohotels.ph/go-hotels/branch/iligan",
+            "address": "Robinsons Place Iligan Complex, Iligan City, 9200 Lanao Del Norte",
+            "membership": "Silver Membership"
+        },
+        {
+            "logo": "https://www.facebook.com/photo/?fbid=478907130909897&set=a.478907127576564",
+            "name": "The Loft Hotel",
+            "phone": "0977 812 9774",
+            "email": "thelofthotelandarcade@yahoo.com",
+            "url": "https://www.facebook.com/thelofthoteliligan",
+            "address": "Iligan City, Philippines",
+            "membership": "Silver Membership"   
+        },
+        {
+            "logo": "https://www.facebook.com/photo/?fbid=354701276450227&set=a.354701239783564",
+            "name": "Watever Family Ktv",
+            "phone": "0935 981 6690",
+            "email": "wateverfamilyktv@gmail.com",
+            "url": "https://www.facebook.com/WateverFamilyKTVIligan/",
+            "address": "Gen. Aguinaldo st. ext, Iligan City, Philippines",
+            "membership": "Gold Membership"
+        },
+        {
+            "logo": "https://www.facebook.com/photo/?fbid=493326656134427&set=a.493326636134429",
+            "name": "Paseo De Santiago",
+            "phone": "0953 153 8380",
+            "email": "paseodesantiagoiligan@gmail.com",
+            "url": "https://www.facebook.com/paseodesantiago/",
+            "address": "Santiago, Iligan City",
+            "membership": "Gold Membership"
+        },
+        {
+            "logo": "https://www.facebook.com/photo/?fbid=511672960961869&set=a.511672930961872",
+            "name": "Timoga Spring Pool",
+            "phone": "0953 223 1111",
+            "email": "timogasp@gmail.com",
+            "url": "https://www.facebook.com/MarcaiSpringPool",
+            "address": "Buru-un, Iligan City",
+            "membership": "Gold Membership"
+        }
+    ]
+}
