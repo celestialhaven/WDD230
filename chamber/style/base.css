@@ -376,3 +376,6 @@ picture img {
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
 }
+section img {
+    width: 10w0px;
+}
