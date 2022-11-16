@@ -357,25 +357,39 @@ picture img {
     align-items: center;
     gap: 10px;
 }
-.gridListButtons button {
-    background: transparent;
-    border: none;
-    cursor: pointer;
-}
 .material-symbols-outlined {
     font-size: 50px;
-}
-.gridDirectory, .listDirectory {
-    transition: transform .2s ease-in-out;
-}
-.gridDirectory:hover, .listDirectory:hover {
-    transform: scale(1.3);
 }
 .infoCards-Grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
 }
+.directoryContainer {
+    margin: auto 100px;
+    border: 1px solid black;
+    padding: 10px;
+}
+.infoCards-Grid {
+    border: 1px solid black;
+    padding: 10px;
+}
+section {
+    border: 1px solid black;
+    padding: 10px;
+}
 section img {
-    width: 10w0px;
+    width: 100px;
+}
+.infoCards-list {
+    display: flex;
+    flex-direction: column;
+}
+.infoCards-list section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.infoCards-list section img {
+    display: none;
 }
