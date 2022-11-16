@@ -386,10 +386,14 @@ section img {
     flex-direction: column;
 }
 .infoCards-list section {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     align-items: center;
+    text-align: left;
 }
 .infoCards-list section img {
+    display: none;
+}
+.infoCards-list section .email, .membership {
     display: none;
 }
