@@ -1,6 +1,6 @@
 /* ===== Display Views =====*/
-const gridBtn = document.querySelector("#grid");
-const listBtn = document.querySelector("#list");
+const gridBtn = document.getElementById("grid");
+const listBtn = document.getElementById("list");
 const display = document.querySelector(".infoCards-Grid");
 
 gridBtn.addEventListener("click", () => {
@@ -11,7 +11,7 @@ listBtn.addEventListener("click", () => {
 	display.classList.add("infoCards-list");
 })
 
-const URLrequest = 'https://joseandresggiron.github.io/wdd230/chamber/json/data.json';
+const URLrequest = 'https://raw.githubusercontent.com/celestialhaven/wdd230/master/chamber/JSON/data.json';
 const infoCards = document.querySelector(".infoCards-Grid");
 
 fetch(URLrequest)

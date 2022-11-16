@@ -348,3 +348,31 @@ picture img {
     border-radius: 5px;
 }
 /* ********************************************** */
+.mainDirectory {
+    text-align: center;
+}
+.gridListButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.gridListButtons button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.material-symbols-outlined {
+    font-size: 50px;
+}
+.gridDirectory, .listDirectory {
+    transition: transform .2s ease-in-out;
+}
+.gridDirectory:hover, .listDirectory:hover {
+    transform: scale(1.3);
+}
+.infoCards-Grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
