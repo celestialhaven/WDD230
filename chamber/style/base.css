@@ -363,23 +363,31 @@ picture img {
 .infoCards-Grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    gap: 20px;
 }
 .directoryContainer {
     margin: auto 100px;
-    border: 1px solid black;
     padding: 10px;
 }
 .infoCards-Grid {
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 10px;
 }
 section {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: transform .2s ease-in-out;
+    cursor: pointer;
+}
+section:hover {
+    transform: scale(1.05);
+}
+section .website a {
+    text-decoration: none;
 }
 section img {
-    width: 100px;
+    width: 150px;
 }
 .infoCards-list {
     display: flex;
@@ -397,3 +405,14 @@ section img {
 .infoCards-list section .email, .membership {
     display: none;
 }
+.gridDirectory button , .listDirectory button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.gridDirectory, .listDirectory {
+    transition: transform .2s ease-in-out;
+}
+.gridDirectory:hover, .listDirectory:hover {
+    transform: scale(1.1);
+} 
