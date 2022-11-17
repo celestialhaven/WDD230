@@ -364,29 +364,28 @@ picture img {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 20px;
 }
 .directoryContainer {
     margin: auto 100px;
     padding: 10px;
 }
-.infoCards-Grid {
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 10px;
-}
-section {
+
+.sectionDirectory {
     /* border: 1px solid black; */
     padding: 10px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     transition: transform .2s ease-in-out;
     cursor: pointer;
 }
-section:hover {
-    transform: scale(1.05);
+.sectionDirectory:hover {
+    transform: scale(1.02);
 }
-section .website a {
+.sectionDirectory .website a {
     text-decoration: none;
 }
-section img {
+.sectionDirectory img {
     width: 150px;
 }
 .infoCards-list {
@@ -414,5 +413,5 @@ section img {
     transition: transform .2s ease-in-out;
 }
 .gridDirectory:hover, .listDirectory:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 } 

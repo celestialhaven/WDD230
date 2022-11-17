@@ -41,7 +41,8 @@ function displayCompanies(company) {
     email.textContent = `${company.email}`;
     website.innerHTML = `<a href="${company.url}" target="_blank">Check their website</a>`;
     membership.textContent = `${company.membership}`;
-
+    
+    card.classList.add("sectionDirectory")
     logo.classList.add("logo");
     name.classList.add("name");
     address.classList.add("address");
