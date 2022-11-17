@@ -243,4 +243,23 @@
     .membershipDetails .formBox label {
         display: block;
     }
+    /* ************************************* */
+    .directoryContainer {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .infoCards-Grid {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        gap: 10px;
+    }
+    .infoCards-list section {
+        display: flex;
+        flex-direction: column;
+    }
+    .infoCards-list section:nth-child(even) {
+        background-color: #f7f7f7
+    }
 }
