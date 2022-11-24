@@ -15,7 +15,7 @@
         right: 5px;
         margin: 5px 5px;
     }
-    #date {
+    .current-date {
         right: 35px;
     }
     .mainWrapper {

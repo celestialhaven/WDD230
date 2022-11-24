@@ -27,7 +27,7 @@
         max-width: 100px;
     }
 
-    #date {
+    .current-date {
         position: absolute;
         right: 25%;
         width: 50%;

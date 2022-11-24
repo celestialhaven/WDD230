@@ -2,7 +2,7 @@
     .headerContainer {
         margin: 0;
     }
-    #date {
+    .current-date {
         right: 70px;
     }
     .brandsContainer {
