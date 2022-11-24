@@ -262,4 +262,10 @@
     .infoCards-list section:nth-child(even) {
         background-color: #f7f7f7
     }
+    .zoom img {
+        transition: none;
+    }
+    .zoom:hover {
+        transform: none;
+    }
 }
