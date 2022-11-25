@@ -1,4 +1,4 @@
-const q = 'Fairbanks'
+const q = 'Iligan City'
 const APIkey = 'ddb620661d0aaf562c78335649c76072'
 const url = `https://api.openweathermap.org/data/2.5/weather?q=${q}&appid=${APIkey}&units=imperial`
 const footer = document.querySelector('footer')
