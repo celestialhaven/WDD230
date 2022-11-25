@@ -1,15 +1,15 @@
-const q = 'Iligan City'
-const APIkey = 'ddb620661d0aaf562c78335649c76072'
-const url = `https://api.openweathermap.org/data/2.5/weather?q=${q}&appid=${APIkey}&units=imperial`
-const footer = document.querySelector('footer')
+let q = 'Iligan City'
+let APIkey = 'ddb620661d0aaf562c78335649c76072'
+let url = `https://api.openweathermap.org/data/2.5/weather?q=${q}&appid=${APIkey}&units=imperial`
+let footer = document.querySelector('footer')
 footer.innerHTML = `<p class="textFooter">Jones Mabala | 🏛 BYU-Idaho | WDD 230</p>`
 
 
 function website(q){
-  const main = document.querySelector('main');
+  let main = document.querySelector('main');
   main.innerHTML = ''
-  const card = document.createElement('div')
-  const header = document.querySelector('header')
+  let card = document.createElement('div')
+  let header = document.querySelector('header')
   header.innerHTML = `<h1>OpenWeatherMap.org API Test</h1>`
   card.classList.add('card')
   main.appendChild(card)
@@ -20,11 +20,11 @@ function website(q){
     <img src="" alt="" id="weather-icon" />
     <figcaption></figcaption>
     </figure>`
-  const form = document.createElement('form')
-  const input = document.createElement('input')
-  const button = document.createElement('button')
-  const buttonImg = document.createElement('img')
-  const label = document.createElement('label')
+  let form = document.createElement('form')
+  let input = document.createElement('input')
+  let button = document.createElement('button')
+  let buttonImg = document.createElement('img')
+  let label = document.createElement('label')
   label.htmlFor = 'city'
   input.name = 'city'
   input.id = 'city'
@@ -47,9 +47,9 @@ function website(q){
 
 async function apiFetch(url) {
   try {
-    const response = await fetch(url);
+    let response = await fetch(url);
     if (response.ok) {
-      const data = await response.json();
+      let data = await response.json();
       displayResults(data)
     } else {
         throw Error(await response.text());
@@ -60,11 +60,11 @@ async function apiFetch(url) {
 }
 
 function displayResults(weatherData, q){
-  const currentTemp = document.querySelector('#current-temp');
-  const weatherIcon = document.querySelector('#weather-icon');
-  const captionDesc = document.querySelector('figcaption');
+  let currentTemp = document.querySelector('#current-temp');
+  let weatherIcon = document.querySelector('#weather-icon');
+  let captionDesc = document.querySelector('figcaption');
   currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
-  const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
+  let iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
   let desc = weatherData.weather[0].description;
   words = desc.split(' ')
   let newDesc = words.map((word) => { 
@@ -77,8 +77,8 @@ function displayResults(weatherData, q){
 
 function search(value, input){
  input.value = ''
- const q = value
- const url = `https://api.openweathermap.org/data/2.5/weather?q=${q}&appid=${APIkey}&units=imperial`
+ let q = value
+ let url = `https://api.openweathermap.org/data/2.5/weather?q=${q}&appid=${APIkey}&units=imperial`
  apiFetch(url)
  website(q)
 }
