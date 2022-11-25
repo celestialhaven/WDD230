@@ -213,35 +213,15 @@
         font-size: 20px;
     }
     /* ================================== */
-
-    .test1 {
-        width: 100%;
-        border-radius: 0;
-
-    }
-    .formBox {
-        padding: 0.rem 0;
+    .joinBanner {
         display: flex;
         flex-direction: column;
     }
-    .formBox label {
-        display: none;
+    .join-div {
+        margin: 0;
     }
-    .formBox input {
-        width: 350px;
-        margin-top: 5px;
-        padding: 10px;
-    }
-    .membershipDetails {
-        margin-right: 20px;
-        margin-left: 20px;
-        margin-top: 20px;
-    }
-    .membershipDetails .formBox {
-        padding: 10px;
-    }
-    .membershipDetails .formBox label {
-        display: block;
+    .membership-div {
+        margin: 0;
     }
     /* ************************************* */
     .directoryContainer {
@@ -268,4 +248,5 @@
     .zoom:hover {
         transform: none;
     }
+    
 }

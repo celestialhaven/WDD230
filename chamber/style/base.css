@@ -306,46 +306,119 @@ picture img {
 }
 
 /* ************************************************************************* */
-.test1 {
+.joinBanner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.joinBanner {
+    background: linear-gradient(160deg, #2981df, #1c5ca0, #104378);;
+}
+legend {
+    text-align: center;
+}
+.personal-info {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    color: white;
+}
+.join-div {
+    padding: 30px;
+    margin-left: 250px;
+}
+.join-div .personal-info label {
+    display: flex;
+    flex-direction: column;
+}
+.join-div .personal-info {
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.join-div .personal-info label {
+    margin-top: 20px;
+}
+.join-div .membership-info {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    width: 600px;
-    margin: 0 auto;
-    border-radius: 20px;
-    background: rgba(255, 255, 255, 0.1);
-    border: 2px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 0 80px rgb(0 0 0 / 25%);
-    padding: 30px 30px 30px 30px;
-    overflow: hidden;
+    padding: 20px;
 }
-.formContainer {
-    background: linear-gradient(135deg, #f7f7f7, #104378);
+.join-div .membership-info label {
+    margin-top: 20px;
 }
-.formBox {
+.join-div .personal-info input {
+    padding: 3px;
+}
+.join-div .membership-info span {
+    margin-left: 10px;
+}
+.business-info {
     display: flex;
+    flex-direction: column;
 }
-.formBox input, .formBox select, .formBox textarea {
-    flex-basis: 100%;
+.membership-div {
+    padding: 20px;
+    margin-right: 250px;
 }
-.personalDeatils {
-    width: 100%;
-}
-.title {
-    font-size: 30px;
-    padding: 10px;
-    font-weight: bold;
-}
-.title2 {
-    font-size: 20px;
-    font-weight: bold;
-}
-.formSubmit input {
-    margin-top: 10px;
-    font-size: 20px;
-    border: none;
+.membership-info {
     border-radius: 5px;
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    color: white;
+    margin-bottom: 20px;
+}
+.membership-div .membership-details {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    color: white; 
+}
+.membership-div .membership-details ul {
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.generic-button-blue {
+    border: none;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    color: white; 
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+.membership-div h3 {
+    font-size: 25px;
+    padding: 5px 0;
+    color: white;
+}
+.membership-div .membership-fee span {
+    font-size: 20px;
+}
+.membership-div p {
+    padding: 5px 0;
 }
 /* ********************************************** */
 .mainDirectory {

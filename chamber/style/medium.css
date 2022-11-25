@@ -206,51 +206,11 @@
     .compDetails ul h2 {
         font-size: 20px;
     }
-    .personalDeatils .formBox {
-        flex-direction: row;
-    }
-    .personalDeatils .formBox label {
-        flex-basis: 9rem;
-        margin-top: 13px;
-    }
-    .personalDeatils .formBox input {
-        width: 350px;
-        margin-top: 5px;
-        padding: 10px;
-    }
-    .membershipDetails {
-        margin-top: 20px;
-    }
-    .membershipDetails .formBox {
-        flex-direction: column;
-    }
-    .membershipDetails .formBox select {
-        padding: 10px;
-    }
-    .membershipDetails .formBox label {
-        margin-top: 20px;
-    }
-    .title {
-        font-size: 30px;
-        padding: 10px;
-        font-weight: bold;
-    }
-    .title2 {
-        font-size: 20px;
-        font-weight: bold;
-    }
-    .zoom img {
-        transition: transform .2s ease-in-out;
-    }
-    .zoom:hover {
-        transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-    }
-    .directoryContainer {
-        margin: 0 auto;
-    }
-    .infoCards-Grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
+   /* +++++++++++++++++++++++++++++++ */
+   .join-div, .membership-div {
+    margin: 0;
+   }
+   /* +++++++++++++++++++++++++++++++ */
 }
 @media screen and (max-width: 768px) {
     .heroContainer img {
@@ -275,6 +235,14 @@
     .directoryContainer {
         margin: 0 auto;
     }
-    
-
+    .joinBanner {
+        display: flex;
+        flex-direction: column;
+    }
+    .join-div {
+        margin: 0;
+    }
+    .membership-div {
+        margin: 0;
+    }
 }

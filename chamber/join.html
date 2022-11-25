@@ -62,76 +62,80 @@
             </div>
         </div>
     </header>
-    <main>
-        <div class="formContainer">
-            <form class="test1" action="#">
-                <div class="title">Registration Form</div>
-                <div class="personalDeatils">
-                    <div class="formBox">
-                        <label for="firstname">First Name:</label>
-                        <input type="text" placeholder="First Name" required>
+    <main class="joinBackground">
+        <section class="join-page">
+            <div class="testback">
+                <div class="joinBanner">
+                    <div class="join-div">
+                        <form id="joinForm" action="thankyou.html" method="get" onload="hiddenInfo" onsubmit="return validate()">   
+                            <fieldset class="personal-info">
+                                <legend>Your Information</legend>
+                                <label class="info"><span>First Name *</span><input type="text" name="fname" required=""></label>
+                                <label class="info"><span>Last Name *</span><input type="text" name="lname" required=""></label>
+                                <label><span>Business Name *</span><input type="text" name="businessName" required=""></label>
+                                <label class="info"><span>Email *</span><input type="email" name="email" placeholder="email@domain.com" required=""></label>
+                                <label class="info"><span>Phone *</span><input type="tel" name="phone" placeholder="+639362911781" required=""></label>
+                                <label>Business Position Title<input id="businessPos" type="text" name="businessPosition"></label>
+                                <p style="display: none;" id="bussinessError">Will only accept alpha characters, hyphens, and space. Minimum seven characters</p>
+                            </fieldset>
+                            <fieldset class="membership-info" >
+                                <legend>Membership Plans</legend>
+                                <label><input type="radio" name="membership" value="gold" required=""><span>Gold Membership</span></label>
+                                <label><input type="radio" name="membership" value="silver" required=""><span>Silver Membership</span></label>
+                                <label><input type="radio" name="membership" value="bronze" required=""><span>Bronze Membership</span></label>
+                                <label><input type="radio" name="membership" value="non-profit" required=""><span>Non-Profit Membership</span></label>
+                                <label class="business-info"><span>Tell Us About Your Business</span><textarea class="text-box" name="tbox" cols="6" rows="5"></textarea></label>
+                                <label><input type="hidden" id="hidden-current-date" name="hidden-current-date" value="CurrentTime"></label>
+                                <label><input type="hidden" id="hidden-current-time" name="hidden-current-time" value="CurrentDate"></label>
+                            </fieldset>
+                            <label class="submit-button"><input class="generic-button-blue" type="submit" value="Join to the chamber"></label>
+                        </form>
                     </div>
-                    <div class="formBox">
-                        <label for="lastname">Last Name:</label>
-                        <input type="text" placeholder="Last Name" required>
-                    </div>
-                    <div class="formBox">
-                        <label for="businessTitle">Title:</label>
-                        <input type="text" placeholder="Business Title">
-                    </div>
-                    <div class="formBox">
-                        <label for="email">Email:</label>
-                        <input type="email" placeholder="jonzmabz01@gmail.com" required>
-                    </div>
-                    <div class="formBox">
-                        <label for="phone">Phone:</label>
-                        <input type="tel" placeholder="Phone Number" required>
-                    </div>
-                    <div class="formBox">
-                        <label for="businessname">Business Name:</label>
-                        <input type="text" placeholder="Business Name" required>
+                    <div class="membership-div">
+                        <div class="membership-details">
+                            <h3 class="common-header-three">Gold Membership</h3>
+                            <p class="membership-fee"><span>$3k/year</span></p>
+                            <p class="membership-description">Ideal for establishing a reputation as a community investor and helping shape the community vision and landscape for area business.</p>
+                            <ul class="benefits">
+                                <li>You can use the conference center</li>
+                                <li>Monthly networking events</li>
+                                <li>Chamber CEO personal visit annually</li>
+                              </ul>
+                        </div>
+                        <div class="membership-details">
+                            <h3 class="common-header-three">Silver Membership</h3>
+                            <p class="membership-fee"><span>$2k/year</span></p>
+                            <p class="membership-description">Developed for businesses seeking to grow and gain greater visibility and influence within the Missoula area business community.</p>
+                            <ul class="benefits">
+                                <li>Use of the Chamber Conference Center</li>
+                                <li>Network and join the committees</li>
+                                <li>Membership decal to proudly display your community</li>
+                              </ul>
+                        </div>
+                        <div class="membership-details">
+                            <h3 class="common-header-three">Bronze Membership</h3>
+                            <p class="membership-fee"><span>$1k/year</span></p>
+                            <p class="membership-description">Created for businesses to establish themselves as community supporters with additional opportunities for engagement.</p>
+                            <ul class="benefits">
+                                <li>New member video shared via social media.</li>
+                                <li>Link to your webpage from the Chamber’s Business Directory</li>
+                                <li>Receive weekly Chamber Connections Newsletter and member eBlasts</li>
+                              </ul>
+                        </div>
+                        <div class="membership-details">
+                            <h3 class="common-header-three">Non-Profit Membership</h3>
+                            <p class="membership-fee">FREE</p>
+                            <p class="membership-description">For Non-Profit organizations looking to serve local communities. (Free of charge)</p>
+                            <ul class="benefits">
+                                <li>Opportunity to rent the Chamber Conference room at a discounted price</li>
+                                <li>Member web page with detailed 50 word description of your business</li>
+                                <li>Brochure/business card space in lobby at the Chamber office</li>
+                              </ul>
+                        </div>
                     </div>
                 </div>
-                <div class="membershipDetails">
-                    <div class="formBox">
-                        <div class="title2">Choose Membership Level</div>
-                        <select id="membership" name="membership" required>
-                            <option value="australia">-------</option>
-                            <option value="australia">NP Membership</option>
-                            <option value="australia">Bronze Membership</option>
-                            <option value="australia">Silver Membership</option>
-                            <option value="australia">Gold Membership</option>
-
-                          </select>
-                    </div>
-                    <div class="formBox">
-                        <label for="noneprofit" style="font-weight: bold;"><em>NP Membership: Cost: 0 PHP</em></label>
-                        <p>As a non-profit business you get all the benefits of a silver membership free of charge.</p>
-                    </div>
-                    <div class="formBox">
-                        <label for="bronze" style="font-weight: bold;"><em>Bronze Membership: Cost: 1,200 PHP/yr</em></label>
-                        <p>Bronze Membership gives you access to special monthly training events and 2 round table seat held by the chamber.</p>
-                    </div>
-                    <div class="formBox">
-                        <label for="silver" style="font-weight: bold;"><em>Silver Membership: Cost: 2,400 PHP/yr</em></label>
-                        <p>Silver membership gives you access to special monthly training events, 5 round table seat plus free advertizing on our homepage.</p>
-                    </div>
-                    <div class="formBox">
-                        <label for="gold" style="font-weight: bold;"> <em>Gold Membership: Cost: 3,600 PHP/yr</em></label>
-                        <p>Gold membership gives you access to special monthly training events, 10 round table seat plus free advertizing on our homepage and events.</p>
-                    </div>
-                </div>
-                <div class="businessDescription">
-                    <span class="details">Business Description</span>
-                </div>
-                <div class="textArea">
-                    <textarea cols="50" rows="10">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus officiis cupiditate rerum libero quo, quam veniam inventore alias sed ipsam illum dignissimos doloremque? Laudantium veritatis quis saepe quia mollitia sapiente.</textarea>
-                </div>
-                <div class="formSubmit">
-                    <input type="submit" value="Submit">
-                </div>
-            </form>
-        </div>
+            </div>
+        </section>
     </main>
     <footer class="footer-content">
         <div class="footerContainer">
@@ -163,5 +167,6 @@
     <script src="script/chamber.js"></script>
     <script src="script/date.js"></script>
     <script src="script/footer.js"></script>
+    <script src="script/join.js"></script>
 </body>
 </html>
