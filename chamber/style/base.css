@@ -487,3 +487,6 @@ legend {
 .gridDirectory:hover, .listDirectory:hover {
     transform: scale(1.05);
 } 
+.weatherIcon {
+    font-size: 30px;
+}

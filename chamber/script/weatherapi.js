@@ -38,7 +38,7 @@ async function apiFetch() {
 
 function displayResults(weatherData) {
     //images
-    let iconsrc = `images/weather/${weatherData.weather[0].icon}.png`;
+    let iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
     let desc = weatherData.weather[0].description;
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
@@ -54,16 +54,6 @@ function displayResults(weatherData) {
     windChill.innerHTML = `${computeWindChill(weatherData.main.temp.toFixed(0), weatherData.wind.speed)}`
     //windChill.innerHTML = `${computeWindChill(49, 6)}` //--> this is test wind chill
 
-    //change background color of weather section
-    let lastCharacter = weatherData.weather[0].icon.charAt(weatherData.weather[0].icon.length-1)
-    if (lastCharacter == 'n') {
-        document.querySelector(".weatherContent").style.backgroundColor = '#BFDBF7'
-
-    }
-    if (lastCharacter == 'd') {
-        document.querySelector(".weatherContent").style.backgroundColor = '#E1E5F2'
-
-    }
 }
 
 
