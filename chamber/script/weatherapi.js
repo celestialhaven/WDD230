@@ -56,7 +56,6 @@ function displayResults(weatherData) {
 
 }
 
-
 function computeWindChill(temp, speed) {
     if (temp <= 50 && speed > 3) {
         let chill = 35.74 + (0.6215*temp) - (35.75*(speed**.16)) + (.4275*temp*(speed**.16))
