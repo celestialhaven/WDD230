@@ -12,7 +12,10 @@
     }
     .navbarContainer {
         right: 14px;
-        z-index: 1;
+        z-index: 8;
+    }
+    #primaryNav {
+        background: white;
     }
     .brandsContainer .fa-brands {
         margin: 0 10px;
@@ -33,7 +36,7 @@
         flex-direction: column;
         min-height: 100px;
         padding: 10px;
-        border: 1px solid rgba(0, 0, 0, 0.1);
+        background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
     }
     .heroContainer {
         position: relative;
@@ -46,8 +49,7 @@
         border-radius: 5px;
         background: rgba(255, 255, 255, 0.2);
         backdrop-filter: blur(30px);
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        box-shadow: 0 0 80px rgb(0 0 0 / 20%);
+
         overflow: hidden;
     }
     .headingMsg h2 {
@@ -64,8 +66,6 @@
         border-radius: 5px;
         background: rgba(255, 255, 255, 0.2);
         backdrop-filter: blur(10px);
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        box-shadow: 0 0 10px rgb(0 0 0 / 20%);
     }
 
     .news-release {
@@ -73,7 +73,8 @@
         min-height: 300px;
         padding: 10px;
         margin: auto 40px;
-        border: 1px solid rgba(0, 0, 0, 0.5);
+        box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+        
     }
     .news-release h3 {
         padding: 10px;
@@ -92,6 +93,9 @@
         width: 100%;
         display: flex;
         flex-direction: row;
+        gap: 10px;
+        margin-top: 20px;
+        
     }
     .spotlightOne, .spotlightTwo {
         height: 300px;
@@ -99,7 +103,7 @@
         text-align: center;
         justify-content: center;
         align-items: center;
-        box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+        box-shadow: 0 0 10px rgb(0 0 0 / 20%);
     }
     .spotlightTwo h3 {
         margin: auto 5px;
@@ -119,6 +123,7 @@
     .eventContent {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
+        gap: 10px;
     }
     .joinContent {
         grid-column: 1/4;
@@ -130,7 +135,7 @@
         align-items: center;
         justify-content: center;
         padding: 10px;
-        box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+        box-shadow: 0 0 10px rgb(0 0 0 / 20%);
     }
     .joinBtn {
         margin-top: 20px;
@@ -146,7 +151,7 @@
         justify-content: center;
         padding: 10px;
         min-height: 100px;
-        box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+        box-shadow: 0 0 10px rgb(0 0 0 / 20%);
     }
     .event h3 {
         font-size: 30px;
@@ -175,7 +180,7 @@
         justify-content: center;
         padding: 10px;
         min-height: 100px;
-        box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+        box-shadow: 0 0 10px rgb(0 0 0 / 20%);
     }
     .upperContainer img {
         width: 100px;
@@ -211,6 +216,14 @@
     margin: 0;
    }
    /* +++++++++++++++++++++++++++++++ */
+   .section-container {
+    display: flex;
+    flex-direction: column;
+   }
+   .glass {
+    width: 100%;
+    border-radius: 0;
+   }
 }
 @media screen and (max-width: 768px) {
     .heroContainer img {
@@ -234,6 +247,7 @@
     }
     .directoryContainer {
         margin: 0 auto;
+        border-radius: 0;
     }
     .joinBanner {
         display: flex;

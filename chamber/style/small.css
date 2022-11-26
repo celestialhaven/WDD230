@@ -248,4 +248,19 @@
     .zoom:hover {
         transform: none;
     }
+    .glass {
+        width: 100%;
+        border-radius: 0;
+    }
+    .section-container {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .discoverImages {
+        margin: 0;
+    }
+    .discoverImages p {
+        margin: 10px;
+    }
 }
