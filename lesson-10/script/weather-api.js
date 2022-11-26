@@ -1,5 +1,5 @@
 let q = 'Iligan City'
-let APIkey = 'ddb620661d0aaf562c78335649c76072'
+let APIkey = '3a911854309296acd6a69c008192825b'
 let url = `https://api.openweathermap.org/data/2.5/weather?q=${q}&appid=${APIkey}&units=imperial`
 let footer = document.querySelector('footer')
 footer.innerHTML = `<p class="textFooter">Jones Mabala | 🏛 BYU-Idaho | WDD 230</p>`
