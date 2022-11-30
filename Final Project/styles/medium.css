@@ -1,0 +1,101 @@
+@media screen and (max-width: 1024px) {
+    .header-container h1 {
+        margin-right: 20px;
+    }
+    form {
+        display: block;
+    }
+    .hamburger {
+        position: fixed;
+        z-index: 5;
+        top: 1.4rem;
+        right: 2rem;
+        padding: 4px;
+        border: none;
+        background: transparent;
+        cursor: pointer;
+    }
+    .close-icon{
+        display: none;
+    }
+    .menu-items {
+        flex-direction: column;
+        position: fixed;
+        transform: translateY(-100%);
+        transition: transform 0.2s;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 4;
+        background: white;
+        color: white;
+        list-style: none;
+        padding-top: 1rem;
+    }
+    .show-menu {
+        transform: translateY(0);
+    }
+    .glass {
+        width: 100%;
+        border-radius: 0;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .header-container {
+        justify-content: space-between;
+    }
+    .header-container h1 {
+        font-size: 25px;
+    }
+    form {
+        display: none;
+    }
+    .brands-container {
+        margin-right: 100px;
+    }
+    .brands-container .fa-brands {
+        font-size: 30px;
+        padding: 10px;
+        color:#54b3d6;
+    }
+    .hamburger {
+        position: fixed;
+        z-index: 5;
+        top: 1.2rem;
+        right: 2rem;
+        padding: 4px;
+        border: none;
+        background: transparent;
+        cursor: pointer;
+    }
+    .close-icon{
+        display: none;
+    }
+    .menu-icon {
+        font-size: 40px;
+    }
+    .menu-items {
+        flex-direction: column;
+        position: fixed;
+        transform: translateY(-100%);
+        transition: transform 0.2s;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 4;
+        background: white;
+        color: white;
+        list-style: none;
+        padding-top: 1rem;
+    }
+    .show-menu {
+        transform: translateY(0);
+    }
+    .glass {
+        width: 100%;
+        border-radius: 0;
+    }
+}

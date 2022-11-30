@@ -1,0 +1,99 @@
+@media screen and (max-width: 475px) {
+    .header-container {
+        justify-content: space-between;
+    }
+    .header-container h1 {
+        font-size: 25px;
+    }
+    form {
+        display: none;
+    }
+    .brands-container {
+        margin-right: 100px;
+    }
+    .brands-container .fa-brands {
+        font-size: 20px;
+        padding: 0;
+        color:#54b3d6;
+    }
+    .hamburger {
+        position: fixed;
+        z-index: 5;
+        top: 1.2rem;
+        right: 3rem;
+        padding: 4px;
+        border: none;
+        background: transparent;
+        cursor: pointer;
+    }
+    .close-icon{
+        display: none;
+    }
+    .menu-icon {
+        font-size: 40px;
+    }
+    .menu-items {
+        flex-direction: column;
+        position: fixed;
+        transform: translateY(-100%);
+        transition: transform 0.2s;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 4;
+        background: white;
+        color: white;
+        list-style: none;
+        padding-top: 1rem;
+    }
+    .show-menu {
+        transform: translateY(0);
+    }
+    .glass {
+        width: 100%;
+        border-radius: 0;
+    }
+    .call-to-action {
+        flex-direction: column;
+        margin-top: 90px;
+    }
+    .call-to-action-content-1 p {
+        text-align: center;
+    }
+    .call-to-action-content-1 h2 {
+        font-size: 25px;
+    }
+    .call-to-action-buttons {
+        justify-content: center;
+        padding: 5px;
+    }
+    .call-to-action-buttons button {
+        font-size: 20px;
+        border: none;
+        padding: 5px;
+        border-radius: 5px;
+        margin: 0 10px;
+        margin-bottom: 10px;
+    }
+    .call-to-action-buttons button a {
+        text-decoration: none;
+        color:#2c7e9c;
+    }
+    .call-to-action-buttons .order-now-button {
+        background: linear-gradient(to right bottom ,  rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.7));
+        cursor: pointer;
+    }
+    .call-to-action-buttons .mix-sample-button {
+        background: linear-gradient(to right bottom, #f8859a, #FF9A5A);
+        cursor: pointer;
+    }
+    .call-to-action-buttons .mix-sample-button a {
+        color: white;
+    }
+    .call-to-action-content-1 h2 {
+        margin-top: 30px;
+        color: white;
+    }
+    
+}

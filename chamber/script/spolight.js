@@ -11,7 +11,6 @@ fetch(requestURL)
     companies.forEach(displayCompanies);
   });
 
-    
   function displayCompanies(company) {
     let card = document.querySelector(".spotlightOne");
     let logo = document.querySelector(".business-logo");

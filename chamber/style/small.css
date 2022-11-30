@@ -263,4 +263,25 @@
     .discoverImages p {
         margin: 10px;
     }
+    .contact-us-content {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    .glass-contact-page {
+        width: 100%;
+        border-radius: 0;
+    }
+    .contact-us-container-1 {
+        width: 100%;
+    }
+    .contact-us-container-2-content-1 {
+        margin-top: 20px;
+    }
+    .section-text p, .staffContact p {
+        text-align: center;
+    }
+    .submitBtnContainer {
+        text-align: center;
+    }
 }
