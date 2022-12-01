@@ -159,7 +159,17 @@ nav ul.open {
 
 }
 .event, .weatherContent, .joinContent {
-    min-height: 300px;
+    min-height: 100%;
+}
+.spotlightOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 100%;
+    padding: 10px;
+}
+.spotlightOne h3 {
+    font-size: 20px;
 }
 .eventContent {
     grid-column: 1/2;

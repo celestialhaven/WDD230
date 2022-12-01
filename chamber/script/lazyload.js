@@ -1,11 +1,11 @@
-let imagesToLoad = document.querySelectorAll("img[data-src]");
+imagesToLoad = document.querySelectorAll("img[data-src]");
 
-const imgOptions = {
+imgOptions = {
   rootMargin: '0px 0px 10px 0px',
   threshold: 1
 };
 
-const loadImages = (image) => {
+loadImages = (image) => {
   image.setAttribute("src", image.getAttribute("data-src"));
   image.onload = () => {
     image.removeAttribute("data-src");
