@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://kit.fontawesome.com/1e5b89cd41.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./images/favicon.ico">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/large.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -35,9 +36,9 @@
                 </div>
                 <div class="navigator-links">
                     <ul class="menu-items">
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Fresh</a></li>
-                        <li><a href="">About Us</a></li>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./fresh.html">Fresh</a></li>
+                        <li><a href="./about-us.html">About Us</a></li>
                     </ul>
                     <button class="hamburger">
                         <i class="menu-icon material-icons">menu</i>
@@ -49,30 +50,188 @@
     </header>
     <main>
         <div class="call-to-action">
-            <div class="call-to-action-content-1">
+            <img src="./images/1.webp" alt="">
+            <div class="hero-container-2">
                 <h2>Make your own Fruit Drink Mix</h2>
                 <p>Easy online ordering, quick and free delivery.</p>
                 <div class="call-to-action-buttons">
-                    <button class="order-now-button" role="button"><a href="">Order now</a></button>
-                    <button class="mix-sample-button" role="button"><a href="">Mix samples</a></button>
-                </div>
-            </div>
-            <div class="call-to-action-content-2">
-                <div class="slide-image-container">
-                    <img class="my-slides animate-fading" src="images/blueberries-avocad-mango-smoothie.jpg">
-                    <img class="my-slides animate-fading" src="images/pineapple-banna-smoothie.jpg">
-                    <img class="my-slides animate-fading" src="images/strawberry-blueberry-smoothie.jpg">
-                    <img class="my-slides animate-fading" src="images/strawberry-smoothie.webp">
+                    <a href=""><button class="order-now-button">Order now</button></a>
+                    <a href=""><button class="mix-sample-button">Mix samples</button></a>
                 </div>
             </div>
         </div>
         <div class="main-background">
-            <div class="glass">
-
+            <div id="wrapper">
+                <div class="fruit-heading">
+                    <h2>Fruit Drinks</h2>
+                </div>
+                <div id="carousel">
+                    <div id="content">
+                        <div class="item-container">
+                            <img class="item" src="./images/fruit-drinks-1.webp"/>
+                            <div class="fruit-name">
+                                <h2>Strawberry Smoothie</h2>
+                            </div>
+                        </div>
+                        <div class="item-container">
+                            <img class="item" src="./images/fruit-drinks-2.webp"/>
+                            <div class="fruit-name">
+                                <h2>Banana Smoothie</h2>
+                            </div>
+                        </div>
+                        <div class="item-container">
+                            <img class="item" src="./images/fruit-drinks-3.webp"/>
+                            <div class="fruit-name">
+                                <h2>Blueberry Smoothie</h2>
+                            </div>
+                        </div>
+                        <div class="item-container">
+                            <img class="item" src="./images/fruit-drinks-4.webp"/>
+                            <div class="fruit-name">
+                                <h2>Perfect Berry Smoothie</h2>
+                            </div>
+                        </div>
+                        <div class="item-container">
+                            <img class="item" src="./images/fruit-drinks-5.webp"/>
+                            <div class="fruit-name">
+                                <h2>Mango Smoothie</h2>
+                            </div>
+                        </div>
+                        <div class="item-container">
+                            <img class="item" src="./images/fruit-drinks-6.webp"/>
+                            <div class="fruit-name">
+                                <h2>Pineapple Smoothie</h2>
+                            </div>
+                        </div>
+                        <div class="item-container">
+                            <img class="item" src="./images/fruit-drinks-7.webp"/>
+                            <div class="fruit-name">
+                                <h2>Peach Smoothie</h2>
+                            </div>
+                        </div>
+                        <div class="item-container">
+                            <img class="item" src="./images/fruit-drinks-8.webp"/>
+                            <div class="fruit-name">
+                                <h2>Perfect Fruit Smoothie</h2>
+                            </div>
+                        </div>
+                        <div class="item-container">
+                            <img class="item" src="./images/fruit-drinks-9.webp"/>
+                            <div class="fruit-name">
+                                <h2>Orange Smoothie</h2>
+                            </div>
+                        </div>
+                        <div class="item-container">
+                            <img class="item" src="./images/fruit-drinks-10.webp"/>
+                            <div class="fruit-name">
+                                <h2>Raspberry Smoothie</h2>
+                            </div>
+                        </div>
+                        <div class="item-container">
+                            <img class="item" src="./images/fruit-drinks-11.webp"/>
+                            <div class="fruit-name">
+                                <h2>Grape Smoothie</h2>
+                            </div>
+                        </div>
+                        <div class="item-container">
+                            <img class="item" src="./images/fruit-drinks-12.webp"/>
+                            <div class="fruit-name">
+                                <h2>Chosolate Strawberry Smoothie</h2>
+                            </div>
+                        </div>
+                        <div class="item-container">
+                            <img class="item" src="./images/fruit-drinks-13.webp"/>
+                            <div class="fruit-name">
+                                <h2>Acai Berry Smoothie</h2>
+                            </div>
+                        </div>
+                        <div class="item-container">
+                            <img class="item" src="./images/fruit-drinks-14.webp"/>
+                            <div class="fruit-name">
+                                <h2>Cinamon Apple Smoothie</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button id="prev">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path fill="none" d="M0 0h24v24H0V0z" />
+                    <path d="M15.61 7.41L14.2 6l-6 6 6 6 1.41-1.41L11.03 12l4.58-4.59z" />
+                    </svg>
+                </button>
+                <button id="next">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path fill="none" d="M0 0h24v24H0V0z" />
+                    <path d="M10.02 6L8.61 7.41 13.19 12l-4.58 4.59L10.02 18l6-6-6-6z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div class="glass">
+            <div class="weather-container">
+                <div class="current-info" id="test-cont">
+                    <div style="display: none; margin-bottom: 10px;" class="date-container" id="date-cont">
+                        <div class="others" id="current-weather-items">
+                            <div class="weather-item">
+                                <div id="forecast-day"></div>
+                                <img id="weather-icon" src="images/weather.png" alt="Weather Logo">
+                                <div id="temp"></div>
+                                <div class="weather-item">
+                                    <div id="desc"></div>
+                                </div>
+                                <div class="weather-item">
+                                    <div id="humid"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-container">
+            <div class="glass-bottom">
+                <div class="demographics">
+                    <h2>About the the Coastal Area</h2>
+                    <p>The Southern California Coast is synonymous with sun, beach babes, and stunning sandy beaches - and for good reason. The counties of San Diego, Orange, and Los Angeles are chock full of great beaches for just about any beach activity you can think of. Surfing is a top activity in these parts, but so is beach volleyball, camping, scuba diving, tidepooling, people-watching, dog-walking, swimming, and just laying around sunbathing (is that really an activity?). Or you can get away from it all with a trip to Catalina Island just a quick ferry ride away. Near the beaches of Socal you'll find comfy hotels, tasty restaurants, and many unique things to do. The Southern California Coast is a wonderful place to live and an incredible vacation destination for those seeking sun and fun.</p>
+                </div>
+                <div id="submited" class="submitted-drinks">
+                    <legend>Your Favorite Drinks</legend>
+                    <img class="item" src="./images/fruit-drinks-9.webp"/>
+                </div>
             </div>
         </div>
     </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footerContainer">
+                <div class="footer-box-1">
+                    <div class="footLogo">
+                        <div class="upperContainer">
+                            <h2>Bountiful Foods</h2>
+                        </div>
+                        <div class="loweContainer">
+                            <h3>Coatal Area of California<br>USA, California</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="compDetails">
+                    <h2>Contact Information</h2>
+                    <ul>
+                        <li><i class="fa-sharp fa-solid fa-envelope"><a href=""></a></i>jonzmabz01@gmail.com</li>
+                        <li><i class="fa-sharp fa-solid fa-phone"><a href=""></a></i>+639362911781</li>
+                        <li><i class="fa-sharp fa-solid fa-location-dot"><a href=""></a></i>Google Map</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-box-2">
+                <p class="p1">&copy; 2022 Bountiful Foods | Jones Mabala | WDD 230 Project | Last Updated: <span id="date"></span></p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js" integrity="sha512-CryKbMe7sjSCDPl18jtJI5DR5jtkUWxPXWaLCst6QjH8wxDexfRJic2WRmRXmstr2Y8SxDDWuBO6CQC6IE4KTA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="scripts/navigator.js"></script>
-    <script src="scripts/slide-show.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/weatherapi.js"></script>
 </body>
 </html>
+

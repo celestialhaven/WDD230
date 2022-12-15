@@ -2,4 +2,7 @@
     .navigator-links .hamburger {
         display: none;
     }
+    .call-to-action img {
+        height: 500px;
+    }
 }

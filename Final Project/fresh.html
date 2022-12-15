@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1e5b89cd41.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/small.css">
+    
+    <title>Bountiful Foods</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="header-container">
+                <h1>Bountiful Foods</h1>
+                <form>
+                    <label for="fruits">
+                        <input name="fruits" id="fruits" type="text" placeholder="search">
+                    </label>
+                    <button id="search">
+                        <img src="images/icon-search.svg" alt="">
+                    </button>
+                </form>
+                <div class="brands-container">
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div class="navigator-links">
+                    <ul class="menu-items">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./fresh.html">Fresh</a></li>
+                        <li><a href="./about-us.html">About Us</a></li>
+                    </ul>
+                    <button class="hamburger">
+                        <i class="menu-icon material-icons">menu</i>
+                        <i class="close-icon material-icons">close</i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="call-to-action">
+            <img src="./images/1.webp" alt="">
+            <div class="hero-container-2">
+                <h2>Make your own Fruit Drink Mix</h2>
+                <p>Easy online ordering, quick and free delivery.</p>
+                <div class="call-to-action-buttons">
+                    <a href=""><button class="order-now-button">Order now</button></a>
+                    <a href=""><button class="mix-sample-button">Mix samples</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="fresh-page-form">
+            <form id="submit-form" method="get" onload="hiddenInfo" onsubmit="event.preventDefault();">   
+                <legend>Your Information</legend>
+                <label class="info"><span>First Name *</span><input id="fname" type="text" name="fname" required="required"></label>
+                <label class="info"><span>Email *</span><input id="email" type="email" name="email" placeholder="email@domain.com" required="required"></label>
+                <label class="info"><span>Phone *</span><input id="phone" type="tel" name="phone" placeholder="+639362911781" required="required"></label>
+                <label class="info"><span>Select Fruit *</span><select name="fruit1" id="fruit1" required="required"></select></label>
+                <label class="info"><span>Select Fruit *</span><select name="fruit2" id="fruit2" required="required"></select></label>
+                <label class="info"><span>Select Fruit *</span><select name="fruit3" id="fruit3" required="required"></select></label>
+                <label class="special-instructions"><span>Add special instructions</span><textarea id="instructions" class="text-box" name="tbox" cols="6" rows="5"></textarea></label>
+                <label style="text-align: center;" class="submit-button"><button style="padding: 10px; width: 20%; border-radius: 5px; border: none; cursor: pointer;" id="myBtn">Submit</button></label>
+            </form>
+        </div>
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <p id="modal-name">asdasdas</p>
+              <p id="modal-email"></p>
+              <p id="modal-phone"></p>
+              <p id="modal-fruit1"></p>
+              <p id="modal-fruit2"></p>
+              <p id="modal-fruit3"></p>
+              <p id="modal-instructions"></p>
+              <p id="date"></p>
+              <p id="modal-carbohydrates"></p>
+              <p id="modal-protein"></p>
+              <p id="modal-fat"></p>
+              <p id="modal-sugar"></p>
+              <p id="modal-calories"></p>
+            </div>
+          
+          </div>
+          
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footerContainer">
+                <div class="footer-box-1">
+                    <div class="footLogo">
+                        <div class="upperContainer">
+                            <h2>Bountiful Foods</h2>
+                        </div>
+                        <div class="loweContainer">
+                            <h3>Coatal Area of California<br>USA, California</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="compDetails">
+                    <h2>Contact Information</h2>
+                    <ul>
+                        <li><i class="fa-sharp fa-solid fa-envelope"><a href=""></a></i>jonzmabz01@gmail.com</li>
+                        <li><i class="fa-sharp fa-solid fa-phone"><a href=""></a></i>+639362911781</li>
+                        <li><i class="fa-sharp fa-solid fa-location-dot"><a href=""></a></i>Google Map</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-box-2">
+                <p class="p1">&copy; 2022 Bountiful Foods | Jones Mabala | WDD 230 Project | Last Updated: <span id="date"></span></p>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts/navigator.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="./scripts/data.js"></script>
+    <script src="./scripts/date.js"></script>
+    <script src="./scripts/modal.js"></script>
+</body>
+</html>
+
