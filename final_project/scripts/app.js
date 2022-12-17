@@ -5,8 +5,6 @@ const carousel = document.getElementById("carousel"),
   next = document.getElementById("next"),
   prev = document.getElementById("prev");
 
-console.log("RUNS")
-
 next.addEventListener("click", e => {
   carousel.scrollBy(width + gap, 0);
   if (carousel.scrollWidth !== 0) {
