@@ -3,22 +3,15 @@ let weatherIcon = document.querySelector('#weather-icon');
 const API_KEY = '3a911854309296acd6a69c008192825b'
 
 getWeatherData()
-function getWeatherData () {
-    navigator.geolocation.getCurrentPosition((success) => {
-
-        fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=36.778259&lon=-119.417931&units=metric&appid=${API_KEY}`).then(res => res.json()).then(data => {
+function getWeatherData () { fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=36.778259&lon=-119.417931&units=metric&appid=${API_KEY}`).then(res => res.json()).then(data => {
             
-        
         console.log(data)
         let arr = [0, 8, 16, 24]
         arr.forEach(idx => {
             showWeatherData(data.list[idx])
         })
-        })
-   
-    })
+    })}
 
-}
 
 function showWeatherData (data) {
 
