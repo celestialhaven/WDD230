@@ -48,5 +48,4 @@ function showWeatherData (data) {
    
     document.getElementById('test-cont').append(copy)
 
-    
 }
