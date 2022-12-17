@@ -1,8 +1,13 @@
-//Let's get the date first
-let d = new Date()
-//format the date into a UK format date
-let fulldateUK = new Intl.DateTimeFormat("en-UK", {
-	dateStyle: "full"
-    //timeStyle: 'long'
-}).format(d);
-document.getElementById("date").innerHTML = `Order date: ${fulldateUK}`
+try {
+    let options = {
+        weekday: "long",
+        day: "numeric",
+        month: "long",
+        year: "numeric",
+        hour: "numeric",
+        minute: "numeric",
+        second: "numeric",
+    };
+    document.getElementById("currentdate2").textContent = new Date().toLocaleDateString("en-us", options);
+} catch (e) {alert(Error);
+}
