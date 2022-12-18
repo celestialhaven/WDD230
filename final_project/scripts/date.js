@@ -9,6 +9,5 @@ try {
         second: "numeric",
     };
     document.getElementById("currentdate2").textContent = new Date().toLocaleDateString("en-us", options);
-    document.getElementById('date').textContent = new Date().toLocaleDateString("en-us", options);
-} catch (e) {alert(Error);
+} catch (e) { console.log(e)
 }
